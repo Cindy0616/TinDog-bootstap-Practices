@@ -31,7 +31,7 @@ i {
   color: white;
 }
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 /* navigation bar */
 .navbar {
@@ -57,8 +57,10 @@ i {
 }
 /* title image */
 .title-image {
-  width:35%;
-  transform: rotate(10deg)
+  width:20%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 18%;
 }
 .fa-heart:hover{
   color:#ff4c68;
@@ -66,6 +68,9 @@ i {
 #features {
   padding: 7% 15%;
   text-align: center;
+  background-color: #fff;
+  position: relative;
+
 
 }
 /* testimonials */
@@ -99,4 +104,18 @@ i {
 .pricing-col{
   padding: 3% 2%;
 
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform:rotate(0);
+  }
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  text-decoration-color: #fff;
 }
