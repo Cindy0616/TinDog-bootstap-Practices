@@ -30,6 +30,18 @@ i {
   background-color: #ff4c68;
   color: white;
 }
+#name {
+  color: #fff;
+}
+#contact{
+  color: #fff;
+}
+#price{
+  color: #fff;
+}
+#download{
+  color: #fff;
+}
 .container-fluid {
   padding: 3% 15% 7%;
 }
@@ -37,23 +49,24 @@ i {
 .navbar {
   padding: 0 0 4.5rem;
 }
-.navbar-brand {
+.navbar-brand{
   font-family: 'Ubuntu', sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  text-decoration-color: white;
+  color: #fff;
 }
 .nav-item{
   padding: 0 18px;
-  text-decoration-color: white;
+  color: white;
 }
 .nav-link {
   font-size:1.2rem;
   font-family: "Montserrat light";
+  color: #fff;
 }
 /* download button */
 .download-button{
-  margin:5% 3% 5% 0;
+  margin:5% 3% 5% 0%;
 }
 /* title image */
 .title-image {
@@ -105,6 +118,23 @@ i {
   padding: 3% 2%;
 
 }
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding:7% 15%;
+}
+.cta-heading{
+  font-size:3.5rem;
+  line-height:1.5;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 8px;
+}
 @media (max-width: 1028px) {
   #title {
     text-align: center;
@@ -113,9 +143,4 @@ i {
     position: static;
     transform:rotate(0);
   }
-}
-#cta {
-  background-color: #ff4c68;
-  text-align: center;
-  text-decoration-color: #fff;
 }
